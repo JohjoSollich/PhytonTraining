@@ -1,0 +1,45 @@
+*Eingabe*
+
+Spieler 1 Name eingeben (spieler1_name)
+Spieler 2 Name eingeben (spieler2_name)
+
+Für Spieler 1 zwei zufällige zahlen von 1 bis 6 generieren (spieler1_wurf)
+Für Spieler 2 zwei zufällige zahlen von 1 bis 6 generieren (spieler2_wurf)
+
+*Logik*
+
+Berechne den Wert des Wurfs für Spieler 1:
+    Wenn spieler1_wurf gleich (2, 1) oder (1, 2) und spieler2_wurf nicht gleich (2, 1) oder (1, 2) ist:
+        Setze spieler1_wert auf 21.
+    Sonst, wenn beide Würfel die gleiche Zahl zeigen:
+        Setze spieler1_wert auf die Summe der Würfel multipliziert mit 10.
+    Sonst:
+        Setze spieler1_wert auf die größere Augenzahl multipliziert mit 10 plus die kleinere Augenzahl.
+
+Berechne den Wert des Wurfs für Spieler 2:
+    Wenn spieler2_wurf gleich (2, 1) oder (1, 2) und spieler1_wurf nicht gleich (2, 1) oder (1, 2) ist:
+        Setze spieler2_wert auf 21.
+    Sonst, wenn beide Würfel die gleiche Zahl zeigen:
+        Setze spieler2_wert auf die Summe der Würfel multipliziert mit 10.
+    Sonst:
+        Setze spieler2_wert auf die größere Augenzahl multipliziert mit 10 plus die kleinere Augenzahl.
+
+
+
+Wenn spieler1_wert größer ist als spieler2_wert:
+    Setze den Gewinner auf spieler1_name.
+Sonst, wenn spieler2_wert größer ist als spieler1_wert:
+    Setze den Gewinner auf spieler2_name.
+Sonst:
+    Setze den Gewinner auf "Unentschieden".
+
+*Ausgabe*
+
+
+Gib aus "spieler1_name hat spieler1_wurf gewürfelt."
+Gib aus "spieler2_name hat spieler2_wurf gewürfelt."
+
+Gib aus "spieler1_name hat einen Wurfwert von spieler1_wert."
+Gib aus "spieler2_name hat einen Wurfwert von spieler2_wert."
+
+Gib den Gewinner aus

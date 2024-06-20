@@ -1,0 +1,31 @@
+Aufgabe 3: Firmenprämie berechnen
+
+Eine Firma gewährt ihren Angestellten unter folgenden Bedingungen zu Weihnachten eine Prämie:
+Beträgt das Dienstalter (= Anzahl der Dienstjahre) weniger als ein Jahr, wird keine Prämie gegeben;
+beträgt es mindestens ein Jahr aber weniger als sechs Jahre, besteht die Prämie aus 200 €.
+
+Ist der Mitarbeiter sechs oder mehr Jahre bei der Firma, bekommt er 80 € und dazu für jedes Dienstjahr 20 €.
+
+Ist er im letzteren Fall außerdem älter als 50 Jahre, so erhält er noch eine Zulage von 50 €
+
+# Eingabe
+Eingabe: Dienstjahre
+Eingabe: Alter
+
+# Logik
+
+wenn Dienstjahre < 1 dann
+     Prämie = 0
+sonst wenn Dienstjahre < 6 dann
+     Prämie = 200
+sonst
+     Prämie = 80 + (20 * Dienstjahre)
+     wenn Alter > 50 dann
+         Prämie += 50
+     ende wenn
+ende wenn
+
+
+# Ausgabe
+
+Ausgabe: Prämie

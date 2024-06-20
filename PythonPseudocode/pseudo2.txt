@@ -1,0 +1,22 @@
+Aufgabe 2: Verteilungsrechnung
+
+Entwerfen Sie einen Algorithmus für die Verteilung eines Gewinns auf 3 Personen mit unterschiedlichen Einsätzen.
+Die drei Einsätze und der zu verteilende Gewinn soll zunächst eingegeben werden.
+Am Ende der Berechnung soll der jeweilige Gewinn je Person ausgegeben werden.
+
+Eingabe: Einsatz1       //5
+Eingabe: Einsatz2       //50
+Eingabe: Einsatz3       //25
+Eingabe: Gewinn         //320
+
+Gesamteinsatz = Einsatz1 + Einsatz2 + Einsatz3   //80
+Faktor = Gewinn / Gesamteinsatz
+
+
+Gewinn_person1 = Faktor * Einsatz1
+Gewinn_person2 = Faktor * Einsatz2
+Gewinn_person3 = Faktor * Einsatz3
+
+Ausgabe: Gewinn_person1
+Ausgabe: Gewinn_person2
+Ausgabe: Gewinn_person3

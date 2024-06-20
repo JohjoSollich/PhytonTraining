@@ -1,0 +1,47 @@
+Aufgabe 5: Würfelspiel (Differenzierung)
+Programmieren Sie ein Würfelspiel, das automatisch eine Ganzzahl
+zwischen 1 und 6 für zwei Spieler ermittelt.
+Anschließend soll der Gewinner ermittelt werden oder das Wort unentschieden
+ausgegeben werden. Gewonnen hat, wer die höhere Zahl gewürfelt hat.
+Falls ein Spieler mit einer Sechs gewonnen hat, soll zudem ausgegeben werden.
+"Glückwunsch, Sieg mit einer 6".
+
+Zusatzaufgabe: Es soll angegeben werden, ob es sich um einen knappen Sieg
+(Augenzahl ist nur maximal 1 höher) oder um einen deutlichen Sieg handelt.
+
+
+#Eingabe
+
+2 Random Zahl generieren
+Jeweils einem Spieler eine Zahl zuweisen
+
+
+#Logik
+
+wenn Spieler 1 > Spieler 2
+    dann Spieler 1 gewinnt
+    wenn Spieler 1 == 6
+        dann Glückwunsch, Sieg mit einer 6
+wenn Spieler 2 > Spieler 1
+    dann Spieler 2 gewinnt
+    wenn Spieler 2 == 6
+        dann Glückwunsch, Sieg mit einer 6
+ansonsten
+    Unentschieden!
+
+Differenz = abs (Spieler 1 - Spieler 2)
+wenn Differenz == 1
+    Knapper Sieg!
+wenn Differenz > 1
+    Deutlicher Sieg!
+
+
+
+#Ausgabe
+
+Ausgabe: Spieler 1 hat eine "Zahl" gewürfelt
+         Spieler 2 hat eine "Zahl" gewürfelt
+         Spieler ??? gewinnt!
+         Glückwunsch,Sieg mit einer 6 (Wenn 6 gewürfelt)
+         Deutlicher Sieg (Wenn Differenz >1)
+         Knapper Sieg (Wenn Differenz == 1)
