@@ -1,3 +1,10 @@
+#Sie sollen ein Programm für das Würfelspiel „Mäxchen“ schreiben. Zwei Spieler geben zu Beginn Ihren Namen ein. 
+#Anschließend würfelt jeder Spieler mit zwei Würfeln (generieren Sie zwei Zufallszahlen zwischen 1 und 6). 
+#Der Wert des Wurfes wird wie folgt bestimmt:
+#Wird eine 2 und eine 1 gewürfelt, hat man ein Mäxchen. Das ist der höchstmögliche Wert Es folgen die Paschwürfe (zwei gleiche Zahlen).
+#Je höher der Pasch, desto besser Trifft keine der beiden ersten Varianten zu, wird der Wert des höherwertigen Würfels als Zehnerstelle, der des niederwertigen als Einerstelle interpretiert.
+#Es ergibt sich also die folgende Reihenfolge (aufsteigend nach Wertigkeit): 31, 32, 41, 42, 43, 51, 52, 53, 54, 61, 62, 63, 64, 65, 11, 22, 33, 44, 55, 66, 21
+#Das Programm soll den Wurfwert beider Spieler anzeigen und anschließend den Gewinner verkünden.
 
 import random
 
