@@ -1,3 +1,14 @@
+#Aufgabe 5: Würfelspiel (Differenzierung)
+#Programmieren Sie ein Würfelspiel, das automatisch eine Ganzzahl
+#zwischen 1 und 6 für zwei Spieler ermittelt.
+#Anschließend soll der Gewinner ermittelt werden oder das Wort unentschieden
+#ausgegeben werden. Gewonnen hat, wer die höhere Zahl gewürfelt hat.
+#Falls ein Spieler mit einer Sechs gewonnen hat, soll zudem ausgegeben werden.
+#"Glückwunsch, Sieg mit einer 6".
+
+#Zusatzaufgabe: Es soll angegeben werden, ob es sich um einen knappen Sieg
+#(Augenzahl ist nur maximal 1 höher) oder um einen deutlichen Sieg handelt.
+
 import random
 
 spieler1 = random.randint(1, 6)
