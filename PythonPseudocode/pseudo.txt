@@ -1,10 +1,9 @@
-19Aufgabe 1: Bruttopreis berechnen
+Aufgabe 1: Bruttopreis berechnen
 Erstellen Sie einen Algorithmus für ein Programm, das nach Eingabe eines Bruttopreises (inkl. 19 % USt.) und eines Rabattsatzes (z.B. 12 %) den neuen Bruttopreis,
 die enhaltetene Umsatzsteuer und den Nettopreis berechnet und ausgibt.
 
 Eingabe: Bruttopreis
 Eingabe: Rabattsatzes
-Eingabe : Drucken?
 
 
 Bruttopreis_neu = Bruttopreis - (Bruttopreis * Rabattsatz / 100)
@@ -13,7 +12,6 @@ Nettopreis =  Bruttopreis_neu - Umsatzsteuer
 
 
 
-wenn drucken gleich Ja :
-    Ausgabe: Bruttopreis_neu
-    Ausgabe: Nettopreis
-    Ausgabe: Umsatzsteuer
+    Ausgabe: "Brutto neu:" , Bruttopreis_neu
+    Ausgabe:  " Der neue Nettopreis ist:" , Nettopreis
+    Ausgabe: "Umsatzsteuer beträgt:" , Umsatzsteuer
